@@ -64,10 +64,4 @@ void Network::instaureConnections()
 }
 
 Network::~Network()
-{
-	for(auto n:neurons) {
-		cout << n->getSpikes() << endl;
-	}
-	
-	
-}
+{}
